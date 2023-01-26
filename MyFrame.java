@@ -10,7 +10,7 @@ public class MyFrame extends JFrame  implements ActionListener{
 
     
     Mypanel panel = new Mypanel();
-    File file = new File("At Nightfall - Yuki Kajiura - _SAO_ Soundtrack.wav");
+    File file = new File("horimiya_op.wav");
 
     JButton pause_button = new JButton();
     JButton play_button = new JButton();
@@ -87,6 +87,7 @@ public class MyFrame extends JFrame  implements ActionListener{
         this.setVisible(true);
         this.setResizable(false);
         this.setSize(500, 500);
+        this.setLocationRelativeTo(null);
 
         //setting the background color for the frame
         this.getContentPane().setBackground(new Color(145,70,255));
